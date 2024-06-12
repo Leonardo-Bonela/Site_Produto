@@ -1,0 +1,131 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+   list-style: none;
+   text-decoration: none;
+   
+}
+
+.poppins-medium {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+ }
+
+ body{
+    background: scroll;
+    
+ }
+
+ .navigation{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 18px;
+   height: 130px;
+   box-shadow: 0 0.1rem 0.5rem #000;
+   background-color: #9d2235;
+  
+ }
+.kope{
+   width: 200px; /* Define a largura como 200 pixels */
+   height: auto; /* Mantém a proporção da altura original */
+}
+
+.navigation ul{
+   display: flex;
+   align-items: center;
+   gap: 13rem; /* Afastar um <a> do outro.*/
+   margin-bottom: -90px;
+   margin-left: -170px;
+
+}
+ .navigation a {
+   color:rgb(255, 240, 0); 
+   
+}
+ 
+.navigation a:hover{
+   color: #000;
+
+}
+
+.input{
+   margin-left: -1100px; /*DIV PRA MOVER*/
+   margin-top: -20px;
+   
+}
+
+.inputa{
+   width: 600px; /* Defina o tamanho desejado aqui */
+   padding: 10px; /* Adicione um preenchimento interno para melhorar a aparência */
+   font-size: 16px; /* Ajuste o tamanho da fonte, se necessário */
+   border-radius: 10px;
+   border: 1px solid #ccc;
+}
+
+
+
+.video{
+   width: 100%;
+   height: 80%; /* Defina altura desejada */
+   position: relative;
+   clip-path: inset(0 0 20% 0); /* Recorta 20% da parte inferior do vídeo */
+   object-fit: cover;
+   object-position: center;
+   z-index: 0;
+   position: absolute;
+   margin-top: 132px; /*DESCI O VIDEO TIRAR SE PRECISO*/
+   margin-left: -218px;
+   
+}
+
+.texto{
+   margin-top: 570px;
+   right: 0px; /* Altere conforme necessário */
+   top: 45%; /* Isso alinhará o texto verticalmente ao centro. Você pode ajustar conforme necessário. */
+   transform: translateY(-50%);
+   padding: 20px;
+   /*border: 1px solid #ccc; /* Adicione uma borda para destacar o texto */
+   text-align: center ; /* Centraliza o texto horizontalmente */
+   color: white;
+   font-size: 20px;
+   line-height: 1.5; /* Aumenta a distância entre linhas para 1.5 vezes a altura da fonte */;
+   background-color: #9d2235;
+   position: relative;
+   margin-bottom: -125px;
+   
+}
+ 
+.content{
+   padding: 100%;
+}
+
+.tamanhoImagem{
+   width: 350px;
+}
+
+
+.imagem2{
+   margin-top: -110px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+
+footer {
+   background-color: #9C2434;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   bottom: 0;
+   width: 100%;   
+}
+
+.tamanhoImagem{
+   width: 35%;
+}
